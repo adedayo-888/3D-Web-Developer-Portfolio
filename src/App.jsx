@@ -1,15 +1,36 @@
-import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Stars from './components /canvas/Stars';
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+} from './components ';
 
-import './index.css';
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <div>
-        <h1 className='text-6xl underline'>web</h1>
+    <BrowserRouter>
+      <div className='relative z-0 bg-primary'>
+        <div className="bg-[url('/herobg.png')] bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        <div className='relative z-0'>
+          <Contact />
+          <Stars />
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
