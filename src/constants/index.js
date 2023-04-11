@@ -1,28 +1,29 @@
-// export {
-//   mobile,
-//   backend,
-//   creator,
-//   web,
-//   javascript,
-//   typescript,
-//   html,
-//   css,
-//   reactjs,
-//   redux,
-//   nodejs,
-//   mongodb,
-//   git,
-//   figma,
-//   docker,
-//   meta,
-//   starbucks,
-//   tesla,
-//   shopify,
-//   carrent,
-//   jobit,
-//   tripguide,
-//   threejs,
-// } from './assets';
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  tailwind,
+  reactjs,
+  redux,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+} from '../assets ';
 
 export const navLinks = [
   {
@@ -41,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Full Stack Developer',
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Front End Developer',
     icon: mobile,
   },
   {
