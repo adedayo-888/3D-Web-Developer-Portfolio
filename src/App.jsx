@@ -7,21 +7,20 @@ import {
   Feedbacks,
   Hero,
   Navbar,
-  Tech,
   Works,
 } from './components ';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className="bg-[url('/herobg.png')] bg-cover bg-no-repeat bg-center">
+      <div className='relative z-0 bg-blue-900'>
+        <div className="bg-[url('/portfolio2-bcg.jpg')] bg-cover bg-no-repeat bg-center ">
           <Navbar />
           <Hero />
         </div>
         <About />
         <Experience />
-        <Tech />
+
         <Works />
         <Feedbacks />
         <div className='relative z-0'>

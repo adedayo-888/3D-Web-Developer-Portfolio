@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   tailwind,
@@ -12,9 +11,7 @@ import {
   redux,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
+  github,
   meta,
   starbucks,
   tesla,
@@ -22,7 +19,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from '../assets ';
 
 export const navLinks = [
@@ -72,10 +68,7 @@ const technologies = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
+
   {
     name: 'React JS',
     icon: reactjs,
@@ -96,57 +89,46 @@ const technologies = [
     name: 'MongoDB',
     icon: mongodb,
   },
+
   {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
+    name: 'github',
+    icon: github,
   },
 ];
 
 const experiences = [
   {
     title: 'React.js Developer',
-    company_name: 'Starbucks',
+    company_name: 'Nelson Web Solutions',
     icon: starbucks,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'March 2016 - April 2018',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
+    title: 'React js. Developer',
+    company_name: 'Crown Web Services',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'April 2018 - Feb 2020',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Full Stack Web Developer',
+    company_name: 'Dayo Web Consutancy',
     icon: shopify,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Feb 2020 - Feb 2021',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -156,15 +138,15 @@ const experiences = [
   },
   {
     title: 'Full stack Developer',
-    company_name: 'Meta',
+    company_name: 'Crown-Dayo Web Consutancy',
     icon: meta,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Feb 2021 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Developed online apps using a variety of front-end and back-end technologies, such as HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. Both new web applications and pre-existing codebases have been my projects.',
+      'Created database schemas, writing queries to extract and modify data, and working with SQL and NoSQL databases are all skills I have in the area of database management. I am also familiar with programmes like MongoDB Atlas and Firebase.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Worked with other programmers, I am a team player that appreciates the importance of efficient communication and teamwork. To deliver high-quality products on schedule and under budget, I collaborated with designers, project managers, and other developers.',
     ],
   },
 ];
@@ -172,26 +154,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
+      'Adedayo disproved my assumption that it was impossible to create a website as stunning as our product.',
+
+    name: 'Samuel Levis',
+    designation: 'CEO',
+    company: 'Fortune Enterprises',
     image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
+      "I have never met a web developer like Adedayo who genuinely cares about their clients' success.",
+    name: 'Andy Blue',
+    designation: 'Chairman',
+    company: 'Iconic Corp',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
+      " Our traffic increased by 50% after it was optimised by Adedayo. We can't thank him enough!",
+    name: 'Lime Joesi',
     designation: 'CTO',
-    company: '456 Enterprises',
+    company: '875 Enterprises',
     image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
